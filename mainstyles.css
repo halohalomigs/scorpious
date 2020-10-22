@@ -1,0 +1,102 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: 'ahamonomonospaced';
+	font-size: 16px;
+	visibility: hidden;
+	opacity: 0;
+	margin: auto;
+	transition: all 0.6s ease;
+}
+
+@font-face {
+    font-family: 'ahamonomonospaced';
+    src: url('ahamono-monospaced-webfont.woff2') format('woff2'),
+         url('ahamono-monospaced-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+main {
+	display: block;
+	width: 550px;
+    margin: 14% auto;
+}
+
+.heading {
+	margin-bottom: 27px;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+#image {
+	text-align: center;
+	justify-content: center;
+	text-decoration: none;
+	display: flex;
+	margin-bottom: 12px;
+}
+
+#logo {
+	height: 90px;
+	width: auto;
+}
+
+#logo:hover {
+	cursor: pointer;
+	opacity: 0.4;
+	transition: 0.6s ease;
+}
+
+h2 {
+	font-size: 48px;
+	margin: 0 auto;
+    text-align: center;
+	cursor: pointer;
+	opacity: 1;
+}
+
+.option {
+	height: 25px;
+	width: 200px;
+	border: 3px solid white;
+	border-radius: 4px;
+	
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.option > p {
+	margin: 1px auto;
+	text-align: center;
+	cursor: pointer;
+}
+
+.option:hover {
+	transition: 0.6s;
+	background-color: white;
+	color: black;
+	font-size: 22px;
+	height: 30px;
+}
+
+a.back {
+	color: white;
+	text-decoration: none;
+}
+
+a.back:hover {
+	padding: 0;
+	cursor: pointer;
+	background-color: #00000050;
+	transition: 0.6s;
