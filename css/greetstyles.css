@@ -50,12 +50,12 @@ main {
 #logo {
 	height: 90px;
 	width: auto;
+	transition: 0.6s ease;
 }
 
 #logo:hover {
 	cursor: pointer;
 	opacity: 0.4;
-	transition: 0.6s ease;
 }
 
 h2 {
@@ -95,5 +95,5 @@ p {
 }
 
 #art:hover {
-	opacity: 0.4;
+	opacity: 0.6;
 }
